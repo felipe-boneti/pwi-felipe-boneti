@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+}
+
+.titulo{
+    background-color: black;
+    color: gray;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.texto{
+border: 3px solid black;
+border-radius: 20px;
+margin-top: 10px;
+
+}

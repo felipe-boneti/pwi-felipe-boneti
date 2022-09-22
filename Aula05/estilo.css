@@ -1,0 +1,47 @@
+h2{
+    margin-top: 50px;
+}
+
+.flex_1, .flex_2, .flex_3, .flex_4, .flex_5, .flex_6, .flex_7{
+    display: flex;
+    font-size: 3rem;
+    background-color: rgb(0, 0, 255);
+    margin: 20px;
+    width: 700px;
+}
+
+.flex_1 > div, .flex_2 > div, .flex_3 > div, .flex_4 > div, .flex_5 > div, .flex_6 > div, .flex_7 > div{
+    background-color: red;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px;
+}
+
+.flex_1{
+    flex-direction: column;
+}
+
+.flex_2{
+    flex-direction: column-reverse;
+}
+
+.flex_3{
+    flex-wrap: wrap;
+}
+
+.flex_4{
+    flex-wrap: nowrap;
+}
+
+.flex_5{
+    justify-content: center;
+}
+
+.flex_6{
+    justify-content: flex-start;
+}
+
+.flex_7{
+    justify-content: flex-end;
+}
