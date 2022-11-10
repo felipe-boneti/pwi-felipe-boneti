@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercício 06</title>
+
+        <style>
+            body{
+                text-align: center;
+            }
+
+            div{
+                margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div>
+            <b>Exercício 06</b>
+            <br>
+            Aplicação do split
+        </div>
+
+        <p id="texto">Ana,Felipe,Fernando,Thiago</p>
+
+        <p id="resultado"></p>
+    </body>
+    
+    <script>
+        var texto = document.getElementById('texto').innerHTML;
+        var resultado = texto.split(',');
+
+        document.getElementById('resultado').innerHTML = resultado[0];
+    </script>
+</html>

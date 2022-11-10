@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercício 05</title>
+
+        <style>
+            body{
+                text-align: center;
+            }
+
+            div{
+                margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div>
+            <b>Exercício 05</b>
+            <br>
+            Aplicação do replace
+        </div>
+
+        <p id="texto">Ana não vai assistir One Piece</p>
+
+        <p id="resultado"></p>
+    </body>
+    
+    <script>
+        var texto = document.getElementById('texto').innerHTML;
+        var resultado = texto.replace('não','DEFINITIVAMENTE')
+
+        document.getElementById('resultado').innerHTML = resultado;
+    </script>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercício 03</title>
+
+        <style>
+            body{
+                text-align: center;
+            }
+
+            div{
+                margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div>
+            <b>Exercício 03</b>
+            <br>
+            Aplicação do toUpperCase
+        </div>
+
+        <p id="texto">Eu vou ser o Rei dos Piratas!</p>
+
+        <p id="resultado"></p>
+    </body>
+    
+    <script>
+        var texto = document.getElementById('texto').innerHTML;
+        var resultado = texto.toUpperCase();
+
+        document.getElementById('resultado').innerHTML = resultado;
+    </script>
+</html>

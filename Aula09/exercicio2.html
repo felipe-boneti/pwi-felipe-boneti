@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercício 02</title>
+
+        <style>
+            body{
+                text-align: center;
+            }
+
+            div{
+                margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div>
+            <b>Exercício 02</b>
+            <br>
+            Extrair o último nome
+        </div>
+
+        <p id="texto">Ana Carolina Silveira Silberschimidt</p>
+
+        <p id="resultado"></p>
+    </body>
+    
+    <script>
+        var nome = document.getElementById('texto').innerHTML;
+        var ultimo_nome = nome.substr(22);
+
+        document.getElementById('resultado').innerHTML = ultimo_nome;
+    </script>
+</html>

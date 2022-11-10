@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercício 07</title>
+
+        <style>
+            body{
+                text-align: center;
+            }
+
+            div{
+                margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div>
+            <b>Exercício 07</b>
+            <br>
+            Aplicação do concat
+        </div>
+
+        <p id="texto">
+            texto 1: Ana
+            <br>
+            texto 2:Silberschimidt
+        </p>
+
+        <p id="resultado"></p>
+    </body>
+    
+    <script>
+        var texto1 = 'Ana';
+        var texto2 = 'Silberschimidt';
+
+        var resultado = texto1.concat(' ',texto2);
+
+        document.getElementById('resultado').innerHTML = resultado;
+    </script>
+</html>

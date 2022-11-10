@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercício 01</title>
+
+        <style>
+            body{
+                text-align: center;
+            }
+
+            div{
+                margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div>
+            <b>Exercício 01</b>
+            <br>
+            Contagem da quantidade de letras do nome
+        </div>
+
+        <p id="texto">Felipe Gustavo Pereira Boneti</p>
+
+        <p id="resultado"></p>
+    </body>
+    
+    <script>
+        var nome = document.getElementById('texto').innerHTML;
+        var contagem = nome.length;
+
+        document.getElementById('resultado').innerHTML = contagem + ' caracteres.';
+    </script>
+</html>

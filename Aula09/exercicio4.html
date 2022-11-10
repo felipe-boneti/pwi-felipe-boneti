@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercício 04</title>
+
+        <style>
+            body{
+                text-align: center;
+            }
+
+            div{
+                margin-bottom: 50px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div>
+            <b>Exercício 04</b>
+            <br>
+            Aplicação do toLowerCase
+        </div>
+
+        <p id="texto">Os sonhos das pessoas... NÃO TEM FIM!</p>
+
+        <p id="resultado"></p>
+    </body>
+    
+    <script>
+        var texto = document.getElementById('texto').innerHTML;
+        var resultado = texto.toLowerCase()
+
+        document.getElementById('resultado').innerHTML = resultado;
+    </script>
+</html>
