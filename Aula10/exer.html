@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <input type="number" id="valor1">
+        <input type="number" id="valor2">
+        <input type="button" value="somar" onclick="soma()">
+        <hr>
+        <b id="result"></b>
+    </body>
+    <script>
+        function soma() {
+            var vl1 = document.getElementById("valor1").value * 1
+            var vl2 = document.getElementById("valor2").value * 1
+            
+            document.getElementById("result").innerHTML = vl1 + vl2
+        }
+    </script>
+</html>
